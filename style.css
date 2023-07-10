@@ -26,24 +26,122 @@ header {
   font-weight: 700;
 }
 
-.banner-description{
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 14px;
-    font-weight: 300;
-    margin: 15px 0;
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 14px;
+  font-weight: 300;
+  margin: 15px 0;
 }
 
-.shop-button{
- border: none;
- padding: 15px 32px;
- background-color:  #E55473;
- border-radius: 5px;
- color: #FFF;
-font-size: 15px;
-font-weight: 600;
-margin-top: 10px;
+.shop-button {
+  border: none;
+  padding: 15px 32px;
+  background-color: #e55473;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
 }
 
-.banner-image{
-    margin-top: 38px;
+.banner-image {
+  margin-top: 38px;
 }
+
+/* Featured section style */
+
+.featured-Section {
+  width: 75%;
+  margin: auto;
+  padding-top: 130px;
+}
+
+.featured-heading {
+  color: #272727;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.featured-description {
+  width: 50%;
+  margin: auto;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+}
+.featured-image {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  padding:  36px 0 24px 0;
+}
+.featured-image-box-1 {
+  width: 348px;
+  height: 404px;
+  border-radius: 225px 225px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  display:flex;
+  justify-content: center;
+  align-items: last baseline;
+}
+.featured-image-box-2 {
+  width: 348px;
+  height: 404px;
+  border-radius: 225px 225px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  display:flex;
+  justify-content: center;
+  align-items: last baseline;
+}
+.featured-image-box-3 {
+  width: 348px;
+  height: 404px;
+  border-radius: 225px 225px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  display:flex;
+  justify-content: center;
+  align-items: last baseline;
+}
+
+.flower-tree{
+    display: flex;
+    justify-content: space-around;
+    color: #272727;
+font-size: 18px;
+font-weight: 525;
+}
+
+
+  /* Delivery and support section style */
+
+
+.delivery-and-support{
+    width: 75%;
+    margin: auto;
+    border-radius: 6px;
+background: rgba(39, 39, 39, 0.05);
+display: flex;
+justify-content: space-around;
+text-align: center;
+margin-top: 96px;
+
+}
+
+.delivery-support-icon{
+    width: 66px;
+    margin: 65px 0 18px 0;
+}
+.delivery-and-support{
+    color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+padding-bottom: 65px;
+
+}
+
+
+/* Deal and discount information */
+

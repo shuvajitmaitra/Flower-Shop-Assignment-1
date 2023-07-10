@@ -145,3 +145,42 @@ padding-bottom: 65px;
 
 /* Deal and discount information */
 
+.deal-and-discount{
+    width: 100%;
+    border-radius: 6px;
+background: rgba(229, 84, 115, 0.05);
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 96px;
+}
+
+.deal-information{
+    width: 50%;
+    text-align: center;
+}
+
+.deal-information-heading{
+    color: #272727;
+font-family: Lato;
+font-size: 30px;
+font-weight: 600;
+}
+span{
+    color: #E55473;
+}
+
+.deal-information-description{
+    width: 75%;
+    margin: auto;
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.deal-section-image{
+    margin: 75px 0px;
+}
+
+de

@@ -183,4 +183,36 @@ span{
     margin: 75px 0px;
 }
 
-de
+/* Instagram section start */
+
+.instagram-section{
+    width: 75%;
+    margin: auto;
+    
+}
+
+.instagram-heading {
+      padding-top: 96px;
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+  .instagram-description {
+    width: 50%;
+    margin: auto;
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .instagram-image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 18px;
+    margin-top: 36px;
+    text-align: center;
+  }

@@ -33,7 +33,7 @@ header {
   margin: 15px 0;
 }
 
-.shop-button {
+.button {
   border: none;
   padding: 15px 32px;
   background-color: #e55473;
@@ -75,14 +75,14 @@ header {
   display: flex;
   justify-content: space-between;
   gap: 18px;
-  padding:  36px 0 24px 0;
+  padding: 36px 0 24px 0;
 }
 .featured-image-box-1 {
   width: 348px;
   height: 404px;
   border-radius: 225px 225px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: last baseline;
 }
@@ -91,7 +91,7 @@ header {
   height: 404px;
   border-radius: 225px 225px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: last baseline;
 }
@@ -100,119 +100,171 @@ header {
   height: 404px;
   border-radius: 225px 225px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: last baseline;
 }
 
-.flower-tree{
-    display: flex;
-    justify-content: space-around;
-    color: #272727;
-font-size: 18px;
-font-weight: 525;
+.flower-tree {
+  display: flex;
+  justify-content: space-around;
+  color: #272727;
+  font-size: 18px;
+  font-weight: 525;
 }
 
+/* Delivery and support section style */
 
-  /* Delivery and support section style */
-
-
-.delivery-and-support{
-    width: 75%;
-    margin: auto;
-    border-radius: 6px;
-background: rgba(39, 39, 39, 0.05);
-display: flex;
-justify-content: space-around;
-text-align: center;
-margin-top: 96px;
-
+.delivery-and-support {
+  width: 75%;
+  margin: auto;
+  border-radius: 6px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 96px;
 }
 
-.delivery-support-icon{
-    width: 66px;
-    margin: 65px 0 18px 0;
+.delivery-support-icon {
+  width: 66px;
+  margin: 65px 0 18px 0;
 }
-.delivery-and-support{
-    color: rgba(39, 39, 39, 0.80);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-padding-bottom: 65px;
-
+.delivery-and-support {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 65px;
 }
-
 
 /* Deal and discount information */
 
-.deal-and-discount{
-    width: 100%;
-    border-radius: 6px;
-background: rgba(229, 84, 115, 0.05);
-display: flex;
-align-items: center;
-justify-content: center;
-margin-top: 96px;
+.deal-and-discount {
+  width: 100%;
+  border-radius: 6px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 96px;
 }
 
-.deal-information{
-    width: 50%;
-    text-align: center;
+.deal-information {
+  width: 50%;
+  text-align: center;
 }
 
-.deal-information-heading{
-    color: #272727;
-font-family: Lato;
-font-size: 30px;
-font-weight: 600;
+.deal-information-heading {
+  color: #272727;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 600;
+margin-bottom: 18px;
 }
-span{
-    color: #E55473;
-}
-
-.deal-information-description{
-    width: 75%;
-    margin: auto;
-    color: rgba(39, 39, 39, 0.6);
-    text-align: center;
-    font-size: 15px;
-    font-weight: 300;
+span {
+  color: #e55473;
 }
 
-.deal-section-image{
-    margin: 75px 0px;
+.deal-information-description {
+  width: 75%;
+  margin: auto;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom:24px;
+}
+
+.deal-section-image {
+  margin: 75px 0px;
 }
 
 /* Instagram section start */
 
-.instagram-section{
-    width: 75%;
-    margin: auto;
-    
+.instagram-section {
+  width: 75%;
+  margin: auto;
 }
 
 .instagram-heading {
-      padding-top: 96px;
-    color: #272727;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 18px;
-  }
-  .instagram-description {
-    width: 50%;
-    margin: auto;
-    color: rgba(39, 39, 39, 0.6);
-    text-align: center;
-    font-size: 15px;
-    font-weight: 300;
-  }
+  padding-top: 96px;
+  color: #272727;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.instagram-description {
+  width: 50%;
+  margin: auto;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+}
 
-  .instagram-image{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 18px;
-    margin-top: 36px;
-    text-align: center;
-  }
+.instagram-image {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 18px;
+  margin-top: 36px;
+  text-align: center;
+}
+
+/* subscription section styles */
+
+.subscription-section {
+  width: 80%;
+  height: 337px;
+  margin: auto;
+  background-image: url("./images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin-top: 96px;
+  border-radius: 6px;
+}
+
+.subscription-heading {
+  padding-top: 96px;
+  color: #272727;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  /* margin-bottom: 18px; */
+}
+.subscription-description {
+  width: 50%;
+  margin: auto;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+}
+.subscription-input-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.subscription-input {
+  width: 525px;
+  height: 48px;
+  margin-right: 12px;  
+  border: none;
+   border-radius: 6px;
+
+}
+ 
+.btn{
+    border: none;
+    background-color: #e55473;
+    color: #fff;
+    padding:16px 23px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+}
